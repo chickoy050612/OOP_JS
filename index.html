@@ -11,20 +11,40 @@
     </head>
     
     <body>
-        <h1>Project 2 Device Tree</h1>
+        <h1>Device Tree Classes</h1>
     
         <main>
             <div id="container">
                 <div class="box" style="left: 300px; top: 100px;">
                     <h2>Video Device</h2>
                     <div id="insideBox" class="box2" style="left: 20px; top: 60px;">
-                      <p>Replacement Cost ($): <input type="text" name="Replacement Cost" id="repCost" class="inputbox"></p>
-                      <p>Supplier Name: <input type="text" name="Supplier Name" id="suppName" class="inputbox"></p>                                          
-                      <p>Serial Number: <input type="text" name="Serial Number" id="serialNumber" class="inputbox"></p>
-                      <p>Resolution: <input type="text" name="Resolution" id="resolution" class="inputbox"></p>
-                      <p>Type: <input type="text" name="Type" id="vidType" class="inputbox"></p>
-                      <p>Status: &nbsp &nbsp Enable<input type="radio" id="radiobutton" name="selectButton1" value="enable" checked>Disable<input type="radio" id="radiobutton" name="selectButton1" value="disable"></p>
-                      
+                    <table>
+                      <tr>
+                        <td>Replacement Cost ($):</td>
+                        <td><input type="text" name="Replacement Cost" id="repCost" class="inputbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Supplier Name:</td>
+                        <td><input type="text" name="Supplier Name" id="suppName" class="inputbox"></td>
+                      </tr>                                          
+                      <tr>
+                          <td>Serial Number:</td>
+                          <td><input type="text" name="Serial Number" id="serialNumber" class="inputbox"></td>
+                      </tr>
+                      <tr>
+                          <td>Resolution:</td>
+                          <td><input type="text" name="Resolution" id="resolution" class="inputbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Type:</td>
+                        <td><input type="text" name="Type" id="vidType" class="inputbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Status:</td>
+                        <td>Enable<input type="radio" id="radiobutton" name="selectButton1" value="enable" checked>
+                        Disable<input type="radio" id="radiobutton" name="selectButton1" value="disable"></td>
+                      </tr>
+                    </table>
                     </div>
                     <table style="left: 20px; top: 400px";>
                         <tr>
@@ -49,14 +69,42 @@
                 <div class="box" style="left: 750px; top: 100px;">
                     <h2>Hard Disk</h2>
                     <div id="insideBox" class="box2" style="left: 20px; top: 60px;">
-                      <p>Replacement Cost ($): <input type="text" name="Replacement Cost" id="repCostHD" class="inputbox"></p>
-                      <p>Supplier Name: <input type="text" name="Supplier Name" id="suppNameHD" class="inputbox"></p>                                          
-                      <p>Serial Number: <input type="text" name="Serial Number" id="serialNumberHD" class="inputbox"></p>
-                      <p>Size: <input type="text" name="Size" id="sizeHD" class="inputbox"></p>
-                      <p>Transfer Rate: <input type="text" name="Transfer Rate" id="transRateHD" class="inputbox"></p>
-                      <p>Platter Size: <input type="text" name="Platter Size" id="platterSizeHD" class="inputbox"></p>
-                      <p>Number of Platters: <input type="text" name="Number of Platter" id="platterNumHD" class="inputbox"></p>
-                      <p>Status: &nbsp &nbsp Enable<input type="radio" id="radiobuttonHD" name="selectButton2" value="enable" checked>Disable<input type="radio" id="radiobuttonHD" name="selectButton2" value="disable"></p>
+                    <table>
+                        <tr>
+                            <td>Replacement Cost ($):</td>
+                            <td><input type="text" name="Replacement Cost" id="repCostHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Supplier Name:</td>
+                            <td><input type="text" name="Supplier Name" id="suppNameHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Serial Number:</td>
+                            <td><input type="text" name="Serial Number" id="serialNumberHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Size:</td>
+                            <td><input type="text" name="Size" id="sizeHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Transfer Rate:</td>
+                            <td><input type="text" name="Transfer Rate" id="transRateHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Platter Size:</td>
+                            <td><input type="text" name="Platter Size" id="platterSizeHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Number of Platters:</td>
+                            <td><input type="text" name="Number of Platter" id="platterNumHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Status:</td>
+                            <td>Enable<input type="radio" id="radiobuttonHD" name="selectButton2" value="enable" checked>
+                            Disable<input type="radio" id="radiobuttonHD" name="selectButton2" value="disable"></td>
+                        </tr>
+                    </table>
+                      
                     </div>
                     <table style="left: 20px; top: 400px" ;>
                         <tr>
@@ -81,16 +129,46 @@
                 <div class="box" style="left: 1200px; top: 100px;">
                     <h2>SSD</h2>
                     <div id="insideBox" class="box2" style="left: 20px; top: 60px;">
-                      <p>Replacement Cost ($): <input type="text" name="Replacement Cost" id="repCostSSD" class="inputbox"></p>
-                      <p>Supplier Name: <input type="text" name="Supplier Name" id="suppNameSSD" class="inputbox"></p>                                          
-                      <p>Serial Number: <input type="text" name="Serial Number" id="serialNumberSSD" class="inputbox"></p>
-                      <p>Size: <input type="text" name="Size" id="sizeSSD" class="inputboxSSD"></p>
-                      <p>Transfer Rate: <input type="text" name="Transfer Rate" id="transRateSSD" class="inputbox"></p>
-                      <p>Type: <input type="text" name="Type" id="typeSSD" class="inputbox"></p>
-                      <p>Wear Level: <select id="wearLevelSSD">
-                        <option value="true">High</option>
-                        <option value="false">Low</option></select></p>
-                        <p>Status: &nbsp &nbsp Enable<input type="radio" id="radiobuttonSSD" name="selectButton3" value="enable" checked>Disable<input type="radio" id="radiobuttonSSD" name="selectButton3" value="disable"></p>
+                    <table>
+                        <tr>
+                            <td>Replacement Cost ($):</td>
+                            <td><input type="text" name="Replacement Cost" id="repCostSSD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Supplier Name:</td>
+                            <td><input type="text" name="Supplier Name" id="suppNameSSD" class="inputbox"></td>
+                        </tr>                                          
+                        <tr>
+                            <td>Serial Number:</td>
+                            <td><input type="text" name="Serial Number" id="serialNumberSSD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Size:</td>
+                            <td><input type="text" name="Size" id="sizeSSD" class="inputboxSSD"></td>
+                        </tr>
+                        <tr>
+                            <td>Transfer Rate:</td>
+                            <td><input type="text" name="Transfer Rate" id="transRateSSD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Type:</td>
+                            <td><input type="text" name="Type" id="typeSSD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Wear Level:</td>
+                            <td>
+                                <select id="wearLevelSSD">
+                                    <option value="true">High</option>
+                                    <option value="false">Low</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Status:</td>
+                            <td>Enable<input type="radio" id="radiobuttonSSD" name="selectButton3" value="enable" checked>
+                                Disable<input type="radio" id="radiobuttonSSD" name="selectButton3" value="disable"></td>
+                        </tr>
+                    </table>
                     </div>
                     <table style="left: 20px; top: 400px" ;>
                         <tr>
